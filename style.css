@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caixa_maior{
+    background-color: #00123C;
+    width: 50%;
+    height: 100vh;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_menor{
+    background-color: #001A56;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.titulo-login{
+    font-size: 30px;
+    color: white;
+}
+
+.titulo-informacoes{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.label-input{
+    color: #F3CA06;
+}
+
+.tamanho-input{
+    height: 20px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 5px;
+    background-clip: padding-box;
+}
+
+.tamanho-input:hover{
+    border: 2px solid #F3CA06;
+}
+
+.tamanho-input:focus{
+    outline: none;
+    border: 2px solid #F3CA06;
+}
+
+.lembre-esqueciSenha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.esqueci-senha{
+    color: #F3CA06;
+}
+
+.tamanho-button{
+    width: 300px;
+    height: 30px;
+    background-color: #F3CA06;
+    border-color:#F3CA06;
+    color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.label-conta{
+    color: #F3CA06;
+    text-align: center;
+}
+
+.lado_direito{
+    background: url(./img/img.jpg) no-repeat top left;
+    background-size: auto 100%;
+    width: 50%;
+    height: 100vh;
+}
